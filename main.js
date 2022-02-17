@@ -13,7 +13,7 @@ renderer.setPixelRatio(devicePixelRatio)
 document.body.appendChild(renderer.domElement)
 
 const box = new THREE.BoxGeometry(1, 1, 1)
-const material = new THREE.MeshBasicMaterial({ color : 0x00ff00 })
+const material = new THREE.MeshBasicMaterial({ color : 0x000 })
 const mesh = new THREE.Mesh(box, material)
 
 scene.add(mesh)
